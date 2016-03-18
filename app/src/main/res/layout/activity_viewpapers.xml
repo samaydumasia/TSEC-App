@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kalpnil.ksinfotech.tsec.tsec.ViewPapers">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"></include>
+    <WebView
+        android:id="@+id/webView2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/app_bar"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center"
+        android:scaleType="centerInside" />
+
+</RelativeLayout>

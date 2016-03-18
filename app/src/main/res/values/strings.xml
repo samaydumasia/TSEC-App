@@ -1,0 +1,515 @@
+<resources>
+    <string name="app_name">TSEC</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="next">Next</string>
+    <string name="faculty_label">Select Department:</string>
+    <string name="select">Choose an object</string>
+    <string name="candy">CANDIES</string>
+
+    <string name="aboutus">Developed By:\nKALPNIL ANJAN</string>
+    <string name="post">CHIEF TECHNICAL HEAD(SOFTWARE)</string>
+    <string name="csi">CSI-TSEC</string>
+
+    <string name="codeveloped">Co-Developed By: NAMIT DADLANI</string>
+    <string name="codevpost">DESIGN HEAD</string>
+    <string name="cocsi">CSI-TSEC</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_notices">Notices</string>
+    <string name="title_activity_lab_locator">Lab Locator</string>
+    <string name="title_activity_faculty">Faculty</string>
+    <string name="title_activity_hangouts">Hangouts</string>
+    <string name="title_activity_question_papers">Question Papers</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_activity_time_table">Time Table</string>
+    <string name="title_activity_about_us">About Us</string>
+
+
+
+
+    <!--TAB 2-->
+
+        <string name="tab3">\nEstablished in 1983, Thadomal Shahani Engineering College is founded by the Hyderabad (Sind) National Collegiate Board.
+         Thadomal Shahani Engineering College (TSEC) is recognized by the Government of Maharashtra.\n
+        \nThis college is approved by the All India Council for Technical Education (AICTE), Affiliated to the University of Mumbai, TSEC is graded as an ‘A’ grade educational institution.\n
+        \nThe Electronics and Telecommunication Engineering, Biomedical Engineering, Information Technology branches are accredited at the degree level by the National Board of Accreditation (NBA) of the AICTE.
+       </string>
+
+    <string-array name="tabs">
+        <item>TAB 1</item>
+        <item>TAB 2</item>
+        <item>TAB 3</item>
+    </string-array>
+    <!--LIST OF BRANCHES-->
+
+    <string-array name="lab_list">
+        <item>SELECT A BRANCH</item>
+        <item>FE</item>
+        <item>Computers</item>
+        <item>Information Technology</item>
+        <item>EXTC</item>
+        <item>Chemical</item>
+        <item>Bio-Medical</item>
+        <item>Bio-Technology</item>
+    </string-array>
+
+    <string-array name="branch_list">
+        <item>SELECT A BRANCH</item>
+        <item>Computers</item>
+        <item>I.T.</item>
+        <item>EXTC</item>
+        <item>Chemical</item>
+        <item>Bio-Medical</item>
+        <item>Bio-Technology</item>
+    </string-array>
+
+    <!--QUESTION PAPERS-->
+
+    <string-array name="exam_year">
+        <item>JUNE 2015</item>
+        <item>DEC 2014</item>
+    </string-array>
+
+    <string-array name="question_list">
+        <item>F.E.</item>
+        <item>Computers</item>
+        <item>I.T.</item>
+        <item>EXTC</item>
+    </string-array>
+
+    <string-array name="fe_list">
+        <item>SELECT SEMESTER</item>
+        <item>SEM I</item>
+        <item>SEM II</item>
+    </string-array>
+
+    <string-array name="question_sublist">
+        <item>SELECT SEMESTER</item>
+        <item>SEM III</item>
+        <item>SEM IV</item>
+        <item>SEM V</item>
+        <item>SEM VI</item>
+        <item>SEM VII</item>
+        <item>SEM VIII</item>
+    </string-array>
+
+    <string name="fesem1june"> SEM I JUNE 2014</string>
+    <string name="fesem1dec"> SEM I DEC 2014</string>
+    <string name="fesem2june">SEM II JUNE 2014</string>
+    <string name="fesem2dec">SEM II DEC 2014</string>
+    <string name="compsem3june">SEM III JUNE 2014</string>
+    <string name="compsem3dec">SEM III DEC 2014</string>
+    <string name="compsem4june">SEM IV JUNE 2014</string>
+    <string name="compsem4dec">SEM IV DEC 2014</string>
+    <string name="compsem5june">SEM V JUNE 2014</string>
+    <string name="compsem5dec">SEM V DEC 2014</string>
+    <string name="compsem6june">SEM VI JUNE 2014</string>
+    <string name="compsem6dec">SEM VI DEC 2014</string>
+    <string name="compsem7june">SEM VII JUNE 2014</string>
+    <string name="compsem7dec">SEM VII DEC 2014</string>
+    <string name="compsem8june">SEM VIII JUNE 2014</string>
+    <string name="compsem8dec">SEM VIII DEC 2014</string>
+
+
+    <!--LAB LOCATOR-->
+
+    <string-array name="nolab"></string-array>
+    <string-array name="nosublab"></string-array>
+
+    <string-array name="fe_lab">
+        <item>SPA Lab</item>
+        <item>Physics Lab</item>
+        <item>Chemistry Lab</item>
+        <item>BEE Lab</item>
+        <item>EM Lab</item>
+        <item>Engineering Drawing</item>
+        <item>Communication Skills</item>
+        <item>Workshop</item>
+        <item>CAD Lab</item>
+    </string-array>
+    <string-array name="fe_sublab">
+        <item>NB-208</item>
+        <item>OB-505</item>
+        <item>NB-104/5</item>
+        <item>NB-804</item>
+        <item>OB-604</item>
+        <item>OB-605</item>
+        <item>NB-502/3</item>
+        <item>NB-Basement</item>
+        <item>OB-607</item>
+    </string-array>
+    <string-array name="comp_lab">
+        <item>SE Lab 1</item>
+        <item>TE Lab 1</item>
+        <item>TE Lab 2</item>
+        <item>BE Lab 1</item>
+        <item>BE Lab 2</item>
+        <item>BE Project Lab</item>
+    </string-array>
+    <string-array name="comp_sublab">
+        <item>NB-307</item>
+        <item>NB-302</item>
+        <item>NB-305</item>
+        <item>NB-402</item>
+        <item>NB-405</item>
+        <item>NB-403</item>
+    </string-array>
+    <string-array name="it_lab">
+        <item>Advance System Lab</item>
+        <item>Network Lab</item>
+        <item>Object Oriented Analysis Lab</item>
+        <item>Project Lab</item>
+        <item>Software Engineering Lab</item>
+        <item>Analog Systems &amp; Communication Lab</item>
+        <item>Image Processing/DSP Lab</item>
+        <item>Multimedia Lab</item>
+        <item>Programming/Database Lab</item>
+    </string-array>
+    <string-array name="it_sublab">
+        <item>NB-902</item>
+        <item>NB-908</item>
+        <item>NB-1002</item>
+        <item>NB-1003</item>
+        <item>NB-1004</item>
+        <item>NB-1005</item>
+        <item>NB-1006</item>
+        <item>NB-1007</item>
+        <item>NB-1008</item>
+    </string-array>
+    <string-array name="extc_lab">
+        <item>Electronics circuit Lab</item>
+        <item>Advance Communication Lab</item>
+        <item>Microproccessor Lab</item>
+        <item>Microwave/TV lab</item>
+        <item>Basic Communication Lab</item>
+        <item>Project Lab</item>
+    </string-array>
+    <string-array name="extc_sublab">
+        <item>NB-701</item>
+        <item>NB-703</item>
+        <item>NB-705</item>
+        <item>NB-706</item>
+        <item>NB-706</item>
+        <item>NB-707</item>
+    </string-array>
+    <string-array name="chem_lab">
+        <item>Environmental Engineering Lab</item>
+        <item>Fluid Flow Operations Lab</item>
+        <item>Mass Transfer Operations Lab</item>
+        <item>Heat Transfer Operations Lab</item>
+        <item>Instrumentation And Process Control Lab</item>
+        <item>Reaction Kinetics And Engineering Lab </item>
+        <item>Solid Fluid Mechanical Operations Lab</item>
+    </string-array>
+
+    <string-array name="chem_sublab">
+        <item>OB-103</item>
+        <item>OB-104</item>
+        <item>OB-105</item>
+        <item>OB-106</item>
+        <item>OB-107</item>
+        <item>OB-108</item>
+        <item>OB-B4</item>
+    </string-array>
+    <string-array name="biomed_lab">
+        <item>Human Biology And Biomechanics Lab</item>
+        <item>Biomaterial And Components Lab/Project Lab</item>
+        <item>Medical Instrumentation Lab</item>
+        <item>Medical Imaging And Image Processing Lab</item>
+        <item>Signal Processing Lab/Biological Modelling Lab</item>
+    </string-array>
+    <string-array name="biomed_sublab">
+        <item>OB-303</item>
+        <item>OB-304</item>
+        <item>OB-305</item>
+        <item>OB-306</item>
+        <item>OB-307</item>
+    </string-array>
+    <string-array name="biotech_lab">
+        <item>Fermentation Technology Lab/Bioconversion Lab</item>
+        <item>Bioseparation Lab/Downstream Technology Lab</item>
+        <item>Environmental Biotechnology Lab</item>
+        <item>Microbiology Lab/Enzyme Engineering Lab</item>
+        <item>Biochemistry Lab</item>
+        <item>Analytical Lab/Plant Cell And Tissue Culture Lab</item>
+        <item>Bioinformatics Lab</item>
+    </string-array>
+    <string-array name="biotech_sublab">
+        <item>OB-201</item>
+        <item>OB-203-A</item>
+        <item>OB-203-B</item>
+        <item>OB-204</item>
+        <item>OB-205</item>
+        <item>OB-206</item>
+        <item>OB-207</item>
+    </string-array>
+
+
+    <!--FACULTY NAMES-->
+
+    <string-array name="comp_fac">
+        <item>Dr. Jayant Gadge</item>
+        <item>Dr. Tanuja Sarode</item>
+        <item>Dr. Archana Patankar</item>
+        <item>Ms. Shilpa Verma</item>
+        <item>Ms. Seema Kolkur</item>
+        <item>Ms. Tasneem Mirza</item>
+        <item>Ms. Sakshi Surve</item>
+        <item>Ms. Ujjwala Bhambre</item>
+        <item>Ms. Anagha Durugkar</item>
+        <item>Mr. Gopal Gupta</item>
+        <item>Ms. Sonal Shroff</item>
+        <item>Ms. Vaishali Suryawanshi</item>
+        <item>Ms. Ruhi Bajaj</item>
+        <item>Ms. Manisha Dumbre</item>
+        <item>Ms. Rupali Patil</item>
+        <item>Ms. Ashwini Mane</item>
+        <item>Ms. Arti Deshpande</item>
+        <item>Ms. Vijaya Padmadas</item>
+        <item>Ms. Urvi Kore</item>
+        <item>Mr. Aejazul Hasan Khan</item>
+    </string-array>
+    <string-array name="it_fac">
+        <item>Dr. G. T. Thampi</item>
+        <item>Mr. Arun Kulkarni</item>
+        <item>Ms. Archana Kale</item>
+        <item>Ms. Anjali Malviya</item>
+        <item>Dr. Madhuri Rao</item>
+        <item>Ms. Sampada Pinge</item>
+        <item>Ms. Shanthi Therese</item>
+        <item>Ms. Kumkum Saksena</item>
+        <item>Mr. Gopal Pardesi</item>
+        <item>Mr. Mukesh Israni</item>
+        <item>Ms. Geeta Karande</item>
+        <item>Ms. Nagaveni Hebbar</item>
+        <item>Mr. Chetan Agarwal</item>
+        <item>Ms. Reshma Malik</item>
+        <item>Mr. Sanjay Pandey</item>
+        <item>Ms. Sunita D. Rathod</item>
+        <item>Ms. Suvarna Gabhe</item>
+        <item>Mr. Nikhilesh Joshi</item>
+        <item>Mr. Bhushan Jadhav</item>
+        <item>Ms. Shachi Natu</item>
+        <item>Ms. Sanober Shaikh</item>
+        <item>Mr. Rahul Talreja</item>
+        <item>Ms. Nivedeeta Mukherjee</item>
+        <item>Ms. Bhanu G. Tekwani</item>
+        <item>Ms. Anita Chadha</item>
+    </string-array>
+    <string-array name="chem_fac">
+        <item>Dr. R.S. Waghmare</item>
+        <item>Ms. Sadhana Purohit</item>
+        <item>Ms. Nita Mehta</item>
+        <item>Dr. Anita Kumari</item>
+        <item>Ms. Usha Aravind Nambiar</item>
+        <item>Ms. Elizabeth Biju Joseph</item>
+        <item>Mr. Prasad Jayavant Parulekar</item>
+        <item>Mr. Ravindra R. Joshi</item>
+        <item>Ms. Sangita Wamanrao Borkar</item>
+        <item>Ms. Monica Dialani</item>
+        <item>Mr. Aasheesh Naresh Moorjani</item>
+    </string-array>
+    <string-array name="extc_fac">
+        <item>Dr. Ashwini Kunte</item>
+        <item>Ms. Anuradha Rao</item>
+        <item>Ms. M. Mani Roja</item>
+        <item>Mr. K.Y. Rajput</item>
+        <item>Ms. Medha Somalawar</item>
+        <item>Mr. K.K. Mathew</item>
+        <item>Ms. Anushree Gupta</item>
+        <item>Ms.Vijayalakshmi Badre</item>
+        <item>Ms. Shristi Bhatia</item>
+        <item>Ms. Neeru Pathak</item>
+        <item>Ms.Uttara Bhat</item>
+        <item>Ms. Jyoti Kashyap</item>
+        <item>Mr. Amit Hatekar</item>
+        <item>Ms. Sharmila Barve</item>
+    </string-array>
+    <string-array name="biomed_fac">
+        <item>Dr. Mita Bhowmick</item>
+        <item>Ms. Bharti Jayesh Ingle</item>
+        <item>Mr. Dhananjay K. Theckedath</item>
+        <item>Ms. Gauri M. Shukla</item>
+        <item>Ms. Anuradha Mistry</item>
+        <item>Mr. Rithesh R. Kini</item>
+        <item>Mr. Tanveer M. Daphedar</item>
+    </string-array>
+    <string-array name="biotech_fac">
+        <item>Dr. R.K. Pathak</item>
+        <item>Dr. Nitin Pereira</item>
+        <item>Ms. Praseeda Nambisian</item>
+        <item>Ms. Sruthi Pillai</item>
+        <item>Mr. Abhijeet Kadam</item>
+        <item>Mr. Nadeem Wadiwalla</item>
+        <item>Dr. Haresh Kamdar</item>
+    </string-array>
+
+    <!--FACULTY DESIGNATIONS-->
+
+    <string-array name="comp_sub_fac">
+        <item>Head &amp; Associate Professor</item>
+        <item>Associate Professor</item>
+        <item>Associate Professor</item>
+        <item>Associate Professor &amp; Dean Students Affairs</item>
+        <item>Associate Professor</item>
+        <item>Associate Professor</item>
+        <item>Associate Professor</item>
+        <item>Associate Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+    </string-array>
+    <string-array name="it_sub_fac">
+        <item>Professor &amp; Principal</item>
+        <item>Associate Professor &amp; Head</item>
+        <item>Associate Professor</item>
+        <item>Dean (AICTE, NBA), Associate Professor</item>
+        <item>Associate Professor , Exam Controller</item>
+        <item>Associate Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Associate Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor (Ad-hoc)</item>
+        <item>Lecturer</item>
+        <item>Lecturer</item>
+        <item>Lecturer</item>
+    </string-array>
+    <string-array name="chem_sub_fac">
+        <item>Professor</item>
+        <item>Associate Professor &amp; HOD</item>
+        <item>Associate Professor</item>
+        <item>Associate Professor</item>
+        <item>Associate Professor</item>
+        <item>Associate Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor(ad-hoc)</item>
+        <item>Lecturer (ad-hoc)</item>
+    </string-array>
+    <string-array name="extc_sub_fac">
+        <item>Vice-Principal &amp; HOD</item>
+        <item>Associate Professor</item>
+        <item>Associate Professor</item>
+        <item>Associate Professor</item>
+        <item>Associate Professor</item>
+        <item>Associate Professor</item>
+        <item>Associate Professor</item>
+        <item>Associate Professor</item>
+        <item>Associate Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+    </string-array>
+    <string-array name="biomed_sub_fac">
+        <item>Professor &amp; Head</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+    </string-array>
+    <string-array name="biotech_sub_fac">
+        <item>Associate professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor(ad-hoc)</item>
+        <item>Lecturer(ad-hoc)</item>
+        <item>Assistant Professor(ad-hoc)</item>
+        <item>Associate Professor (ad-hoc)</item>
+    </string-array>
+
+    <!--TIME TABLE-->
+
+    <string-array name="year">
+        <item>FE</item>
+        <item>SE</item>
+        <item>TE</item>
+        <item>BE</item>
+    </string-array>
+
+    <string-array name="divisions">
+        <item>SELECT DIVISION</item>
+        <item>DIV A</item>
+        <item>DIV B</item>
+        <item>DIV C</item>
+        <item>DIV D</item>
+        <item>DIV E</item>
+        <item>DIV F</item>
+        <item>DIV G</item>
+    </string-array>
+
+    <string-array name="branches">
+        <item>SELECT BRANCH</item>
+        <item>COMPUTERS C1</item>
+        <item>COMPUTERS C2</item>
+        <item>IT IT1</item>
+        <item>IT IT2</item>
+        <item>EXTC</item>
+        <item>BIOMED</item>
+        <item>BIOTECH</item>
+        <item>CHEMICAL</item>
+    </string-array>
+
+    <!--HANGOUTS-->
+    <string-array name="hangout_places">
+        <item>Candies</item>
+        <item>Subway</item>
+        <item>Gaiety Galaxy</item>
+        <item>McDonalds</item>
+        <item>Dominos Pizza</item>
+        <item>Gelato Italiano</item>
+        <item>BandStand</item>
+        <item>Carter Road</item>
+        <item>Sbarro</item>
+        <item>Gamers Den</item>
+    </string-array>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="title_activity_trial">Trial</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_hangout_map">HangoutMap</string>
+    <string name="title_activity_hangout_maps">Map</string>
+    <string name="title_activity_view_papers">ViewPapers</string>
+    <string name="title_activity_question_paper_trial">Question Papers</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_new_maps">Map</string>
+    <string name="title_activity_maps_activity11">Map</string>
+    <string name="title_activity_maps_activitynew">Map</string>
+    <string name="title_activity_map_locator">Hangouts</string>
+
+
+</resources>

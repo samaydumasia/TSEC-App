@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+    tools:context="com.kalpnil.ksinfotech.tsec.tsec.QuestionPaperTrial">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"></include>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryColor"
+        android:id="@+id/spinner1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/year"
+        android:prompt="@string/select"
+        android:layout_below="@id/app_bar" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryColor"
+        android:id="@+id/spinner2"
+        android:entries="@array/divisions"
+        android:prompt="@string/select"
+        android:layout_below="@id/spinner1"
+        />
+
+    <TextView
+        android:id="@+id/june"
+        android:paddingTop="16dp"
+        android:layout_marginLeft="72dp"
+        android:paddingBottom="20dp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:fontFamily="Roboto-regular"
+        android:paddingLeft="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:clickable="true"
+        />
+
+    <TextView
+        android:text=""
+        android:id="@+id/dec"
+        android:paddingTop="16dp"
+        android:layout_marginLeft="72dp"
+        android:paddingBottom="20dp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:fontFamily="Roboto-regular"
+        android:paddingLeft="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true" />
+
+
+</LinearLayout>

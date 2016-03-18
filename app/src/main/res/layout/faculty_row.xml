@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:background="@drawable/background1"
+    >
+    <ImageView
+        android:id="@+id/facIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:elevation="8dp"
+        android:src="@drawable/ashwini_mane"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/facName"
+        android:layout_toRightOf="@+id/facIcon"
+        android:layout_marginTop="16dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="16dp"
+        android:textSize="16sp"
+        android:fontFamily="Roboto-regular"
+        android:paddingLeft="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ashwini Mane"/>
+
+    <TextView
+        android:paddingLeft="24dp"
+        android:id="@+id/facSubTitle"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:fontFamily="Roboto-regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Associate professor"
+        android:layout_below="@+id/facName"
+        android:layout_alignLeft="@+id/facName"
+        android:layout_alignStart="@+id/facName" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:id="@+id/separator"
+        android:visibility="visible"
+        android:background="@color/accentColor"/>
+
+</RelativeLayout>

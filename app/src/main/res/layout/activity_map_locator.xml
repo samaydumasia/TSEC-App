@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kalpnil.ksinfotech.tsec.tsec.MapLocator">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"
+        ></include>
+
+    <com.kalpnil.ksinfotech.tsec.tsec.TouchImageView
+        android:id="@+id/image_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/app_bar"/>
+</RelativeLayout>

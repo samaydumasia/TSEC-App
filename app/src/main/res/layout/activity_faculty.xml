@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+    tools:context="com.kalpnil.ksinfotech.tsec.tsec.Faculty">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"></include>
+
+    <Spinner
+        android:id="@+id/faculty_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_bar"
+        android:background="@color/primaryColor"
+        android:prompt="@string/faculty_label"></Spinner>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/fac_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/faculty_spinner"/>
+</RelativeLayout>

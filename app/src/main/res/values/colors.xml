@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#1976D2</color>
+    <color name="primaryColorDark">#1976D2</color>
+    <color name="primary_light">#D1C4E9</color>
+    <color name="accentColor">#B6B6B6</color>
+    <color name="primary_text">#FFFFFF</color>
+    <color name="light_primary">#D1C4E9</color>
+    <color name="secondary_text">#727272</color>
+    <color name="colorHighlight">#FFFFFF</color>
+    <color name="tablehead">#757575</color>
+    <color name="tabledata">#212121</color>
+    <color name="divider">#B6B6B6</color>
+</resources>

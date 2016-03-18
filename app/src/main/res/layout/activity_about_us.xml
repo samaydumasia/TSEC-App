@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context="com.kalpnil.ksinfotech.tsec.tsec.AboutUs">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar">
+    </include>
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_bar"
+        android:orientation="horizontal"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF">
+
+            <ImageView
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:src="@drawable/iconmain"
+                android:id="@+id/newimg"/>
+
+            <TextView
+                android:id="@+id/tvtitle"
+                android:layout_toRightOf="@id/newimg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingLeft="10dp"
+                android:text="@string/aboutus"
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/post"
+                android:layout_width="match_parent"
+                android:layout_toRightOf="@id/newimg"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvtitle"
+                android:paddingLeft="10dp"
+                android:textSize="12dp"
+                android:text="@string/post"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:id="@+id/csi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/newimg"
+                android:paddingLeft="10dp"
+                android:layout_below="@+id/post"
+                android:text="CSI-TSEC"
+                android:textSize="12dp"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/co"
+                android:textColor="@android:color/black"
+                android:text="@string/codeveloped"
+                android:textSize="12dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+                android:layout_below="@id/csi"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/co"
+                android:textSize="12dp"
+                android:paddingLeft="10dp"
+                android:text="@string/codevpost"
+                android:textColor="@android:color/black"
+                android:id="@+id/copost"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/copost"
+                android:textColor="@android:color/black"
+                android:text="@string/cocsi"
+                android:textSize="12dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/codev"/>
+            <TextView
+                android:id="@+id/tvpubdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/codev"
+                android:layout_margin="5dp"
+                android:text="For any suggestions and remarks, please mail us at : csitsec@outlook.com"
+                android:textColor="@android:color/black"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="12sp" />
+            <TextView
+                android:id="@+id/copyright"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvpubdate"
+                android:layout_margin="5dp"
+                android:text="Copyright@2015"
+                android:textColor="@android:color/black"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

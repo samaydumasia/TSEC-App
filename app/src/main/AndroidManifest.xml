@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kalpnil.ksinfotech.tsec" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- GCM requires a Google account. -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <permission
+        android:name="com.kalpnil.ksinfotech.tsec.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.kalpnil.ksinfotech.tsec.permission.C2D_MESSAGE" />
+    <!-- This app has permission to register and receive dataf message. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconmain"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".tsec.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.kalpnil.ksinfotech.tsec.MESSAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tsec.Notices"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kalpnil.ksinfotech.tsec.tsec.MainActivity" />
+        </activity>
+        <activity
+            android:name=".tsec.LabLocator"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kalpnil.ksinfotech.tsec.tsec.MainActivity" />
+        </activity>
+        <activity
+            android:name=".tsec.Faculty"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kalpnil.ksinfotech.tsec.tsec.MainActivity" />
+        </activity>
+        <activity
+            android:name=".tsec.Hangouts"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kalpnil.ksinfotech.tsec.tsec.MainActivity" />
+        </activity>
+        <activity
+            android:name=".tsec.TimeTable"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kalpnil.ksinfotech.tsec.tsec.MainActivity" />
+        </activity>
+        <activity
+            android:name=".tsec.AboutUs"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kalpnil.ksinfotech.tsec.tsec.MainActivity" />
+        </activity>
+        <activity
+            android:name=".tsec.WebViewActivity"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kalpnil.ksinfotech.tsec.tsec.Notices" />
+        </activity>
+        <activity
+            android:name=".tsec.HangoutMap"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kalpnil.ksinfotech.tsec.tsec.Hangouts" />
+        </activity>
+
+        <!--
+               <meta-data
+               android:name="com.google.android.maps.v2.API_KEY"
+               android:value="AIzaSyD_Wp4eYI_sMN1A6T20TRW__EvoJeYI6J4"/>
+        -->
+
+        <receiver
+            android:name="com.pushbots.google.gcm.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <!-- Receives the registration id. -->
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.kalpnil.ksinfotech.tsec" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.pushbots.push.DefaultPushHandler" />
+
+        <service android:name="com.pushbots.push.GCMIntentService" />
+
+        <activity
+            android:name=".tsec.ViewPapers"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kalpnil.ksinfotech.tsec.tsec.QuestionPaperTrial" />
+        </activity>
+        <activity
+            android:name=".tsec.QuestionPaperTrial"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kalpnil.ksinfotech.tsec.tsec.MainActivity" />
+        </activity>
+        <activity
+            android:name=".tsec.SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".tsec.MapLocator"
+            android:label="@string/title_activity_map_locator" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kalpnil.ksinfotech.tsec.tsec.Hangouts" />
+        </activity>
+    </application>
+
+</manifest>
